@@ -29,7 +29,7 @@ turns into:
 
 ```
 {
-    'one/two':3,
+    'one/two'  :  3  ,
     'one/four/0':5,
     'one/four/1':6,
     'one/four/2':7,
