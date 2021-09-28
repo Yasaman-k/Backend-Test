@@ -47,22 +47,19 @@ str.push(level_1[0])
 //level2
 let ll =Object.values(input)
 let level_2= Object.keys(ll[0])
-console.log(level_2[1])
+console.log(level_2[0])
 
 
 //level3
 let lll=Object.values(ll[0])
-let level3=lll[1]
+let level3=lll[0]
 console.log(level3)
 
-
-
-str.push(level_2[1])
-str.push()
+str.push(level_2[0])
 str=str.join('/')
 
 //level4
-obj[str]=level3[0]
+obj[str]=level3
 console.log(obj)
 
 
